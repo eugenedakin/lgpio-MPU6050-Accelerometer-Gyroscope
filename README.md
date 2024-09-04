@@ -1,6 +1,7 @@
 # lgpio-MPU6050-Accelerometer-Gyroscope
 Uses the Raspberry Pi 5, Xojo, and MPU6050 to detect tilt and other movements. Prior Raspberry Pi SBC (Single Board Computers) can be used by modifying the lgGpiochipOpen command. 
 
+[![MPU6050 Xojo Teaser Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=gNzrLWRh18Q))
 ![](Teaser YouTube Video)](https://www.youtube.com/watch?v=gNzrLWRh18Q)
 
 If you've ever wanted to use your Raspberry Pi to detect tilt and other movements, Eugene is here showing how to connect a gyroscope and accelerometer sensor and read the results with Xojo. 
