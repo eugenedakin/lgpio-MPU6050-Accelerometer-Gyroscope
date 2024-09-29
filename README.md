@@ -21,16 +21,18 @@ To use the lgpio with the Raspberry Pi 5 board, get the chip handle with the fol
 
 Install instructions are:
 
-1. sudo apt install swig python-dev python3-dev
-2. sudo apt install python-setuptools python3-setuptools
-3. wget http://abyz.me.uk/lg/lg.zip
-4. unzip lg.zip
-5. cd lg
-6. make
-7. sudo make install
-8. open the example program and copy the program and libraries to the RaspberryPi Desktop
-9. give the executable permission to run with something like: 'sudo chmod +x MPU6050'
-10. run the program with something like: 'sudo ./MPU6050'
+1. install Raspberry Pi OS (64-bit)
+2. Open a terminal and type the following commands:
+3. sudo apt install swig python3-dev
+4. sudo apt install python3-setuptools
+5. wget https://github.com/joan2937/lg/archive/master.zip
+6. unzip master.zip
+7. cd lg-master
+8. make
+9. sudo make install
+10. open the example program and copy the program and libraries to the RaspberryPi Desktop
+11. give the executable permission to run with something like: 'sudo chmod +x MPU6050'
+12. run the program with something like: 'sudo ./MPU6050'
 
 Screen Grab of Running Program
 ![](https://github.com/eugenedakin/lgpio-MPU6050-Accelerometer-Gyroscope/blob/main/ScreenGrab-2.png)
