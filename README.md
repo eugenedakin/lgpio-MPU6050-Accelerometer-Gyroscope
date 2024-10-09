@@ -1,5 +1,5 @@
 # lgpio-MPU6050-Accelerometer-Gyroscope
-Uses the Raspberry Pi 5, Xojo, and MPU6050 to detect tilt and other movements. Prior Raspberry Pi SBC (Single Board Computers) can be used by modifying the lgGpiochipOpen command. 
+Uses the Raspberry Pi 5, Xojo, and MPU6050 to detect tilt and other movements. Prior Raspberry Pi SBC (Single Board Computers) can be used by modifying the lgGpiochipOpen command. This uses the I2C communication protocol.
 
 [![MPU6050 Xojo Teaser Video](https://github.com/eugenedakin/lgpio-MPU6050-Accelerometer-Gyroscope/blob/main/PIMPU6050-300x300.png)](https://www.youtube.com/watch?v=gNzrLWRh18Q "MPU6050 Xojo Teaser")
 
