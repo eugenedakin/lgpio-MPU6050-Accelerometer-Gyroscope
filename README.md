@@ -25,14 +25,15 @@ Install instructions are:
 2. Open a terminal and type the following commands:
 3. sudo apt install swig python3-dev
 4. sudo apt install python3-setuptools
-5. wget https://github.com/joan2937/lg/archive/master.zip
-6. unzip master.zip
-7. cd lg-master
-8. make
-9. sudo make install
-10. open the example program and copy the program and libraries to the RaspberryPi Desktop
-11. give the executable permission to run with something like: 'sudo chmod +x MPU6050'
-12. run the program with something like: 'sudo ./MPU6050'
+5. sudo apt-get install libunwind8
+6. wget https://github.com/joan2937/lg/archive/master.zip
+7. unzip master.zip
+8. cd lg-master
+9. make
+10. sudo make install
+11. open the example program and copy the program and libraries to the RaspberryPi Desktop
+12. give the executable permission to run with something like: 'sudo chmod +x MPU6050'
+13. run the program with something like: 'sudo ./MPU6050'
 
 Screen Grab of Running Program
 ![](https://github.com/eugenedakin/lgpio-MPU6050-Accelerometer-Gyroscope/blob/main/ScreenGrab-2.png)
